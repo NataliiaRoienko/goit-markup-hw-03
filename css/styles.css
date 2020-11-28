@@ -1,0 +1,230 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+.address {
+  font-style: normal;
+}
+
+/* ========== HEADER ========== */
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.first-part-logo {
+  color: #2196f3;
+}
+.second-part-logo {
+  color: #000000;
+}
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+
+.header-mail,
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.portfolio-text {
+  color: var(--accent-color);
+}
+
+.studio-text {
+  color: var(--accent-color);
+}
+
+/* ========== END HEADER ========== */
+
+/* ========== HERO ========== */
+
+.hero,
+.contact-info {
+  background: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: var(--accent-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+/* ========== END HERO ========== */
+
+/* ========== OTHER SECTIONS ========== */
+
+.about-advantages-list,
+.address-list,
+.about-work-list,
+.team-list,
+.btn-list,
+.projects-list-item,
+.navigation-list {
+  list-style: none;
+}
+
+.about-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.about-advantages-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team {
+  background: #f5f4fa;
+}
+
+.team-list-item {
+  background: #ffffff;
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ========== END OTHER SECTIONS ========== */
+
+/* ========== FOOTER ========== */
+
+.second-logo {
+  color: #ffffff;
+}
+
+.address-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-mail,
+.footer-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-list-link,
+.navigation-list-link,
+.header-mail,
+.header-tel,
+.projects-link {
+  text-decoration: none;
+}
+
+/* ========== END FOOTER ========== */
+
+/* ========== PORTFOLIO PAGE ========== */
+
+.item-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  color: #212121;
+}
+
+.item-button:hover,
+.item-button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.projects-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.projects-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
