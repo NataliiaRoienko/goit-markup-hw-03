@@ -51,7 +51,6 @@ img {
 .header .container {
   display: flex;
   align-items: center;
-  outline: 1px solid tomato;
 }
 
 .header .logo {
@@ -138,25 +137,34 @@ img {
 
 /* ========== HERO ========== */
 
+.hero .container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .hero,
 .contact-info {
   background: #2f303a;
+  text-align: center;
 }
 
 .hero-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  text-align: center;
   color: #ffffff;
 }
 
 .hero-btn {
-  display: flex;
-  align-items: center;
-  text-align: center;
+  min-width: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: none;
   background-color: var(--accent-color);
   color: #ffffff;
   font-weight: 700;
@@ -169,6 +177,32 @@ img {
 
 /* ========== OTHER SECTIONS ========== */
 
+.about-advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.about-advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-advantages-list-item {
+  width: 270px;
+}
+
+.about-advantages-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about-work-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .about-advantages-list,
 .address-list,
 .about-work-list,
@@ -180,12 +214,21 @@ img {
 }
 
 .about-subtitle {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+}
+
+.about-work {
+  padding-bottom: 94px;
+}
+
+.about-work-list {
+  display: flex;
 }
 
 .about-advantages-desc {
@@ -197,6 +240,7 @@ img {
 }
 
 .title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -207,6 +251,16 @@ img {
 
 .team {
   background: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-img {
+  margin-bottom: 30px;
+}
+
+.team-list {
+  display: flex;
 }
 
 .team-list-item {
@@ -214,6 +268,7 @@ img {
 }
 
 .team-subtitle {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -223,6 +278,7 @@ img {
 }
 
 .team-desc {
+  padding-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -234,6 +290,28 @@ img {
 /* ========== END OTHER SECTIONS ========== */
 
 /* ========== FOOTER ========== */
+
+.contact-info {
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+.contact-info .logo {
+  margin-bottom: 20px;
+}
+
+.contact-info .address {
+  text-align: left;
+  margin-right: auto;
+}
+
+.contact-info .address-list {
+  min-width: 231px;
+}
+
+.contact-info .address-list-item:not(:last-child) {
+  margin-bottom: 9px;
+}
 
 .second-logo {
   color: #ffffff;
@@ -263,6 +341,18 @@ img {
 .projects-link {
   text-decoration: none;
 }
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 
 /* ========== END FOOTER ========== */
 
